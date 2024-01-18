@@ -4,10 +4,10 @@ import pytesseract
 from PIL import Image
 
 # Specify the path to your directory
-directory_path = 'C://Users/koenmertens/KCAPI/Data'
-pytesseract.pytesseract.tesseract_cmd = r'C://Program Files/Tesseract-OCR/tesseract.exe'
-file_path = 'C://Users/koenmertens/KCAPI/output.txt'
-file_path2 = 'C://Users/koenmertens/KCAPI/outputWithMarks.txt'
+directory_path = '***'
+pytesseract.pytesseract.tesseract_cmd = r'***/tesseract.exe'
+file_path = '***/output.txt'
+file_path2 = '***/outputWithMarks.txt'
 # Loop through files in the directory
 for entry in os.listdir(directory_path):
     # Construct the full path to the file or directory
